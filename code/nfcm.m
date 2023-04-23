@@ -2,6 +2,7 @@ function [F, obj1, obj_nfcm, iter,iter_f] = nfcm(U, r, X)
 %  X d*n input matrix
 %  U n*c initial membership matrix
 %  r     fuzzifier parameter
+% It is written by Jingjing Xue
 
     [~,n] = size(X);
     c=size(U,2);
